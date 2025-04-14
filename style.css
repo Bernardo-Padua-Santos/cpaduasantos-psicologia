@@ -617,9 +617,10 @@ footer {
   transition: background 0.3s ease-in-out;
 }
 
-/* FAQ Question */
+
 .faq-question {
-  background-color: #f8d3cc;
+  background-color: #fff6f3;
+  color: #3a3a3a; /* softened black */
   width: 100%;
   padding: 16px 20px;
   font-size: 18px;
@@ -633,25 +634,22 @@ footer {
   transition: background-color 0.3s ease-in-out;
 }
 
-/* Hover Effect */
 .faq-question:hover {
-  background-color: #e6b8b3;
+  background-color: #f1c5bc; /* softer hover */
 }
 
-/* Active (Opened) Question */
 .faq-question.active {
   background-color: #d08c87;
   color: white;
 }
 
-/* Arrow Icon */
 .faq-question .arrow {
   position: absolute;
   right: 20px;
   transition: transform 0.3s ease;
+  color: #3a3a3a; 
 }
 
-/* Rotate Arrow when Active */
 .faq-question.active .arrow {
   transform: rotate(180deg);
 }
@@ -680,6 +678,10 @@ footer {
   display: inline;  /* Makes both <p> and <a> inline */
   padding: 0; /* Remove unnecessary padding that might create spacing */
   margin: 0; /* Remove margin to ensure continuous text */
+}
+
+.faq-question {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .single-line-footer {
