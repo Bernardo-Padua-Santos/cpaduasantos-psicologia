@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("faq-answer-1").innerText = translations[lang].faqs.faq_answer_1;
     document.getElementById("faq-question-2").innerHTML = translations[lang].faqs.faq_question_2 + ' <span class="arrow">&#9660;</span>';
     document.getElementById("faq-answer-2.1").innerText = translations[lang].faqs.faq_answer_2_1;
-    document.getElementById("formButton").innerText = translations[lang].faqs.formButton;
+    document.getElementById("formButtonFAQ").innerText = translations[lang].faqs.formButton;
     document.getElementById("faq-answer-2.2").innerText = translations[lang].faqs.faq_answer_2_2;
     document.getElementById("faq-question-3").innerHTML = translations[lang].faqs.faq_question_3 + ' <span class="arrow">&#9660;</span>';
     document.getElementById("faq-answer-3").innerText = translations[lang].faqs.faq_answer_3;
@@ -102,6 +102,12 @@ document.addEventListener("DOMContentLoaded", () => {
       termsList.appendChild(li);
     });
 
+    const lastUpdate = document.getElementById("last-update");
+    lastUpdate.innerHTML = ""; // Clear previous content
+    const p = document.createElement("p");
+    p.innerHTML = `<strong>${translations[lang].terms.last_update.split(":")[0]}:</strong> ${translations[lang].terms.last_update.split(":").slice(1).join(":")}`;
+    lastUpdate.appendChild(p);
+
     // Modal - Política de Privacidade
     document.getElementById("privacy-title").innerText = translations[lang].privacy.title;
     document.getElementById("privacy-intro").innerText = translations[lang].privacy.intro;
@@ -127,6 +133,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     document.getElementById("privacy-link").innerText = translations[lang].footer.privacy_policy;
     document.getElementById("terms-link").innerText = translations[lang].footer.terms_of_use;
+
+    const lastReview = document.getElementById("last-review");
+    lastReview.innerHTML = ""; // Clear previous content
+    const p2 = document.createElement("p");
+    p2.innerHTML = `<strong>${translations[lang].privacy.last_review.split(":")[0]}:</strong> ${translations[lang].privacy.last_review.split(":").slice(1).join(":")}`;
+    lastReview.appendChild(p2);
 
     // Log for testing
     console.log(`Language set to ${lang}`);

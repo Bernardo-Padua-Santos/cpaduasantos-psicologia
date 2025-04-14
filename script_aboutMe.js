@@ -64,6 +64,12 @@ document.addEventListener("DOMContentLoaded", () => {
         termsList.appendChild(li);
       });
 
+      const lastUpdate = document.getElementById("last-update");
+      lastUpdate.innerHTML = ""; // Clear previous content
+      const p = document.createElement("p");
+      p.innerHTML = `<strong>${translations[lang].terms.last_update.split(":")[0]}:</strong> ${translations[lang].terms.last_update.split(":").slice(1).join(":")}`;
+      lastUpdate.appendChild(p);
+
     // Modal - Política de Privacidade
     document.getElementById("privacy-title").innerText = translations[lang].privacy.title;
     document.getElementById("privacy-intro").innerText = translations[lang].privacy.intro;
@@ -90,6 +96,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
       document.getElementById("privacy-link").innerText = translations[lang].footer.privacy_policy;
       document.getElementById("terms-link").innerText = translations[lang].footer.terms_of_use;
+
+      const lastReview = document.getElementById("last-review");
+      lastReview.innerHTML = ""; // Clear previous content
+      const p2 = document.createElement("p");
+      p2.innerHTML = `<strong>${translations[lang].privacy.last_review.split(":")[0]}:</strong> ${translations[lang].privacy.last_review.split(":").slice(1).join(":")}`;
+      lastReview.appendChild(p2);
     // Log for testing
     console.log(`Language set to ${lang}`);
   }
