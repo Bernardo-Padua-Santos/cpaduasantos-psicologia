@@ -1,0 +1,269 @@
+{
+    "pt": {
+        "title": "Psicóloga Clínica",
+        "menu": {
+            "home": "Início",
+            "about_me": "Sobre mim",
+            "consultations": "Consultas",
+            "contacts": "Contactos"
+        },
+        "online_consultations": "Consultas de Psicologia Online",
+        "book_your_consultation": "Marque já a sua consulta!",
+        "book_now": "Marcar agora",
+        "quotes": {
+          "jung": "“Quem olha para fora sonha, quem olha para dentro desperta.”",
+          "jung_author": "Carl Jung"
+        },
+        "testimonials_title": "Testemunhos",
+        "testimonials": [
+          "Sempre fui aquela pessoa que dizia ‘sim’ a tudo para evitar conflitos e agradar os outros. A pouco e pouco, estou a aprender a colocar limites sem sentir culpa.<br><small>(33 anos)</small>",
+          "Percebi que repetia sempre os mesmos padrões nos meus relacionamentos. Foi difícil, mas finalmente consigo criar relações mais saudáveis e sem medo de perder o outro.<br><small>(42 anos)</small>",
+          "No início, estava um bocado cético, mas acabei por encontrar um espaço de confiança. Sinto-me mais leve.<br><small>(34 anos)</small>",
+          "A terapia ajudou-me a comunicar melhor com a minha família. Antes, evitava conversas difíceis, agora sinto-me mais segura para expressar o que penso e sinto e impor os meus limites.<br><small>(43 anos)</small>",
+          "Percebi que o problema não era sempre ‘os outros’, mas a forma como eu reagia. Mudei a maneira como lido com conflitos e noto a diferença nas minhas relações.<br><small>(17 anos)</small>",
+          "Antes, olhava para o espelho e só via defeitos. Comparava-me sempre com os outros e achava que nunca era boa o suficiente. Agora consigo reconhecer o meu valor para além da aparência e a sentir-me bem comigo mesma e a confiar mais em mim. É um caminho.<br><small>(30 anos)</small>",
+          "Agora, com as estratégias que aprendi, consigo parar o ciclo de pensamentos negativos e lidar com a ansiedade de forma mais tranquila.<br><small>(52 anos)</small>"
+        ],
+        "about_text": [
+            "Psicóloga Clínica (Cédula Profissional nº 26083) pela Faculdade de Psicologia da Universidade de Lisboa.",
+            "Experiência profissional em contexto clínico, hospitalar (público e privado) e comunitário, com crianças, adolescentes e adultos.",
+            "Formadora certificada, com experiência formativa, sobretudo em contexto escolar.",
+            "Desde cedo que apostei na minha formação contínua, de forma a aumentar o meu leque de experiências e competências, sendo que valorizo muito todas as oportunidades que tive de crescimento profissional – não só as oportunidades formativas, mas também as experiências de voluntariado que, de muitas formas, me enriqueceram.",
+            "A resiliência, a força e a coragem das crianças, jovens e adultos que tive o privilégio de apoiar até à data, é algo que me acompanha e me incentiva, diariamente, a tentar ser a melhor versão de mim mesma, seja comigo própria, nas minhas relações e sobretudo, como profissional."
+        ],
+        "training": "Formação:",
+        "qualifications": [
+            "Mestrado Integrado em Psicologia Clínica e da Saúde – Núcleo de Psicologia da Saúde e da Doença pela Faculdade de Psicologia da Universidade de Lisboa",
+            "Pós-graduação em Avaliação em Psicologia Forense pelo ISPA",
+            "Formação avançada Psicofarmacologia para Psicólogos pelo ISPA",
+            "Workshop “Perturbações Depressivas – Avaliação e Intervenção”",
+            "Curso “Intervenção com Crianças e Jovens em Risco” pela OPP",
+            "Curso “Intervenção Psicológica com pessoas LGBTQ” pela OPP",
+            "Curso “Intervenção Psicológica com Pessoas Refugiadas e Requerentes de Asilo” pela OPP",
+            "Workshop “Ansiedade na Infância: Como intervir?”",
+            "Workshop “Birras na Infância: Como Intervir?”",
+            "Workshop “Estratégias de Regulação Emocional com Crianças”",
+            "Curso de Língua Gestual Portuguesa – Módulo I, pelo Instituto Nacional para a Reabilitação"
+        ],
+        "more_info": "Mais informação sobre mim e sobre o meu percurso profissional: LinkedIn",
+        "closing_message": "Foi na minha profissão que encontrei o meu propósito e me apaixonei não só pela intervenção psicológica, mas também pelo ser humano e a sua capacidade de se transformar. Permita-se construir o seu caminho de desenvolvimento pessoal e eu comprometo-me a caminhar consigo em direção à mudança.",
+        "formButton": "Formulário",
+        "about_me": {
+            "heading": "Sobre Mim",
+            "intro": "O meu nome é Carolina e sou <strong>Psicóloga Clínica</strong>, formada pela Faculdade de Psicologia da Universidade de Lisboa. Tenho experiência profissional em contexto clínico, hospitalar e comunitário, com crianças, jovens e adultos. Sou também formadora certificada.",
+            "purpose": "Foi na Psicologia que descobri o meu propósito e que me apaixonei não só pelo processo terapêutico, mas também pela capacidade que cada pessoa tem de se reinventar, mesmo nos momentos mais desafiantes.",
+            "approach": "A minha prática é orientada pela abordagem cognitivo-comportamental integrativa, que me permite adaptar as ferramentas terapêuticas conforme as necessidades de cada pessoa. Ao longo do meu percurso, tenho investido na minha formação contínua, pois acredito que é o caminho mais seguro para oferecer um apoio eficaz e de qualidade.",
+            "quote_1": {
+                "text": "“Os nossos pensamentos influenciam os nossos sentimentos e comportamentos. Ao mudar a forma como pensamos, mudamos a forma como vivemos.”",
+                "author": "Aaron Beck"
+            },
+            "closing": "No meu dia-a-dia, o que mais me inspira é a resiliência das pessoas com quem trabalho. É a força delas que me motiva a continuar a procurar novas formas de ajudar, sempre com a crença de que o ser humano é capaz de se transformar e (re)construir a sua história de vida.",
+            "invite": "Se está pront@ para dar um passo em direção à mudança e ao bem-estar, estou aqui para caminhar consigo.",
+            "signature": {
+                "name": "Carolina Pádua Santos",
+                "position": "Membro efetivo da Ordem dos Psicólogos Portugueses",
+                "license": "(Cédula Profissional nº 26083)"
+            }
+        },
+        "contacts": {
+            "contact_description": "Para mais informações ou esclarecimento de dúvidas, não hesite em entrar em contacto:",
+            "contact_form_name": "Nome",
+            "contact_form_message": "Mensagem",
+            "contact_form_submit": "Enviar"
+        },
+        "faqs": {
+            "formButton": "formulário",
+            "faq_question_1": "1. Como sei se preciso de acompanhamento psicológico?",
+            "faq_answer_1": "Dar o primeiro passo e procurar ajuda pode não ser fácil, especialmente quando não nos sentimos bem. É natural surgirem dúvidas sobre a necessidade de acompanhamento ou sobre como começar. No entanto, não devemos esperar por um momento de grande sofrimento para procurar apoio – pelo contrário, quanto mais cedo recorrermos à terapia, mais eficaz poderá ser na compreensão e superação das dificuldades. Todos podemos beneficiar de acompanhamento psicológico, uma vez que a terapia não é apenas para momentos de crise ou de grande dificuldade, mas também um espaço para autoconhecimento e desenvolvimento pessoal. Contudo, pode ser particularmente importante quando não nos sentimos bem ao longo de várias semanas e esse estado emocional começa a afetar diferentes áreas da nossa vida, nomeadamente, a área social, as nossas relações, a área familiar e a escolar/profissional. Neste sentido, se as suas emoções, pensamentos ou comportamentos estão a interferir com o seu bem-estar, a terapia pode ser uma ferramenta valiosa para compreender e gerir esses desafios.",
+            "faq_question_2": "2. Como posso marcar uma consulta?",
+            "faq_answer_2_1": "As consultas podem ser marcadas através do seguinte",
+            "faq_answer_2_2":", onde deverá indicar a sua disponibilidade horária. Após o preenchimento, receberá um e-mail com uma proposta de agendamento, de acordo com os horários indicados por si. Assim que confirmar o agendamento, serão enviados os dados para pagamento via transferência bancária. O pagamento deve ser realizado até 24 horas antes da consulta, para garantir a reserva da vaga. Após a confirmação do pagamento, receberá um e-mail com o link de acesso à sessão por videochamada, através de Google Meet ou Microsoft Teams, conforme a sua preferência indicada no formulário.",
+            "faq_question_3": "3. O que devo esperar da primeira sessão?",
+            "faq_answer_3": "A primeira sessão é uma oportunidade para nos conhecermos. Vamos explorar as suas preocupações e a sua história de vida, bem como compreender as suas necessidades e objetivos. Haverá também espaço para esclarecer quaisquer dúvidas que tenha sobre o processo terapêutico.",
+            "faq_question_4": "4. É feita alguma avaliação inicial?",
+            "faq_answer_4": "As primeiras sessões são dedicadas a explorar não apenas o motivo da consulta, mas também a sua história e contexto de vida, incluindo aspetos familiares, sociais, escolares/profissionais e emocionais. Este processo avaliativo permite identificar padrões de pensamento, emoções e comportamentos, bem como fatores que possam estar a contribuir para as dificuldades apresentadas. Com base nesta compreensão, é possível definir um plano de intervenção adequado, assegurando que o acompanhamento é estruturado e ajustado às suas necessidades específicas.",
+            "faq_question_5": "5. Quanto tempo dura o acompanhamento psicológico?",
+            "faq_answer_5": "A duração do acompanhamento depende das necessidades e objetivos de cada pessoa. Algumas alcançam progressos num período mais curto, enquanto outras beneficiam de um processo mais aprofundado para trabalhar questões específicas e consolidar mudanças.",
+            "faq_question_6": "6. Com que frequência devo ter consultas?",
+            "faq_answer_6": "A periodicidade das consultas é definida em conjunto na primeira sessão e pode ser ajustada a qualquer momento do processo terapêutico. De um modo geral, recomenda-se e é aconselhável acompanhamento semanal ou quinzenal. A investigação mostra que a terapia tende a ser mais eficaz quando as sessões acontecem com regularidade, pois a continuidade e a consistência do acompanhamento são fundamentais para promover mudanças significativas e duradouras. O mais importante é encontrarmos junt@s a frequência que melhor se adapta à pessoa e às suas necessidades.",
+            "faq_question_7": "7. Quais são os métodos utilizados nas sessões?",
+            "faq_answer_7": "@s Psicólo@s aplicam procedimentos e técnicas baseadas na investigação e evidência científicas, que garantem a sua segurança e eficácia. A minha abordagem baseia-se na terapia cognitivo-comportamental integrativa, que me permite adaptar as técnicas utilizadas às necessidades e objetivos de cada pessoa. Durante as sessões, recorro a modelos, métodos e técnicas empiricamente validados, para ajudar a compreender e modificar padrões de pensamento, emoções e comportamentos que possam estar a causar sofrimento ou dificuldades no dia a dia. Adicionalmente, as estratégias são também adaptadas à faixa etária de cada pessoa, garantindo que as intervenções são apropriadas e eficazes. O foco é sempre promover o bem-estar e desenvolver ferramentas que a pessoa possa aplicar na sua vida quotidiana.",
+            "faq_question_8": "8. A terapia é confidencial?",
+            "faq_answer_8": "Sim. As sessões de psicologia decorrem num contexto de confidencialidade, assegurado pelo dever de sigilo profissional. Esta obrigação está prevista no Código Deontológico da Ordem dos Psicólogos e visa proteger a privacidade de quem recorre a acompanhamento psicológico. A confidencialidade é um pilar essencial da relação terapêutica. @ psicólog@ tem a responsabilidade de garantir que toda a informação partilhada se mantém protegida, exceto em situações muito específicas previstas legalmente, como quando está em causa a segurança da própria pessoa ou de terceiros.",
+            "faq_question_9": "9. Quais são as vantagens das consultas online?",
+            "faq_answer_9": "As sessões online permitem que o apoio psicológico chegue a qualquer pessoa, independentemente do local onde se encontra. São uma opção prática e acessível, eliminando o tempo e os custos associados às deslocações, e oferecendo maior flexibilidade na gestão de horários. Além disso, garantem o conforto e privacidade no ambiente escolhido pelo paciente. Ainda assim, para garantir a confidencialidade e a qualidade da sessão, é essencial adotar alguns cuidados. É recomendável usar um dispositivo pessoal (e não público), escolher um local reservado e tranquilo, e tentar minimizar interrupções durante o tempo da consulta.",
+            "faq_question_10": "10. Tem acordo com algum seguro de saúde?",
+            "faq_answer_10": "Não disponho de acordo com seguradoras. No entanto, recomendo que entre em contacto diretamente com a sua seguradora para mais informações sobre as condições de reembolso. De qualquer modo, incluo sempre no recibo o incluímos no recibo o número de beneficiário e a respetiva seguradora.",
+            "faq_question_11": "11. Como posso desmarcar uma sessão em caso de imprevisto?",
+            "faq_answer_11": "Caso surja algum imprevisto e não possa estar presente na sessão agendada, é importante avisar com, no mínimo, 24 horas de antecedência. É recomendável que entre em contacto assim que possível, de forma a avaliar a possibilidade de reagendar, tendo em conta a disponibilidade existente.",
+            "faq_question_12": "12. É necessário assinar um consentimento informado?",
+            "faq_answer_12": "Sim. Na primeira consulta, será solicitado o seu consentimento informado. Este documento explica, de forma clara e transparente, os principais aspetos relacionados com a intervenção, incluindo o tratamento da informação partilhada. No caso de sessões com adolescentes, é essencial obter o consentimento dos pais ou representantes legais."
+        },
+        "terms": {
+          "title": "Termos de Utilização",
+          "intro": "Ao utilizar este site e avançar com a marcação de consultas, o/a utilizador(a) concorda com os termos e condições estabelecidos abaixo, bem como com as orientações relativas ao acompanhamento psicológico. Este contrato tem como objetivo esclarecer as diretrizes que deverão ser seguidas tanto pela psicóloga quanto pelo/a cliente durante o processo terapêutico:",
+          "items": [
+            "Dados pessoais: A utilização deste site não exige o fornecimento de dados pessoais, mas ao solicitar informações ou marcar consultas, o utilizador deverá fornecer os dados necessários (nome, idade, e-mail), que serão tratados garantindo a confidencialidade.",
+            "Confidencialidade e Registos: Todas as informações partilhadas durante as consultas serão tratadas de forma confidencial, conforme estabelecido no Código Deontológico da Ordem dos Psicólogos Portugueses. As sessões não serão gravadas, mas a Psicóloga poderá realizar registos escritos para fins de memória e supervisão, mantendo sempre a confidencialidade desses dados.",
+            "Pagamentos e Agendamentos: As consultas deverão ser pagas, via transferência bancária, pelo menos 24 horas antes da consulta, para garantir a reserva da vaga. Caso contrário, a consulta será automaticamente cancelada. Em caso de atraso do paciente, o tempo de atraso será descontado do tempo total da sessão. Se o psicólogo se atrasar, o tempo perdido será compensado no final da consulta.",
+            "Alterações e Cancelamentos: Alterações de dia e hora das consultas e cancelamentos devem ser comunicadas com pelo menos 24 horas de antecedência. Caso contrário, o valor da consulta não será reembolsado. Em caso de desistência de consultas já pagas, o valor não será devolvido.",
+            "Duração e Regularidade das Consultas: As consultas têm uma duração de 50 minutos. A regularidade das consultas será acordada na primeira sessão e poderá ser ajustada conforme necessário ao longo do processo terapêutico. O contrato terapêutico pode ser terminado a qualquer momento, por ambas as partes.",
+            "Utilização do site: O utilizador concorda em utilizar o site apenas para fins pessoais e não comerciais, respeitando os direitos de propriedade intelectual e os conteúdos do site. A utilização do site está sujeita a alterações e interrupções temporárias para manutenção. O site pode conter links para outros sites, cuja responsabilidade e conteúdo não são controlados pela Psicóloga.",
+            "Consentimento: Ao prosseguir com a marcação das consultas, ambas as partes consentem com os pontos estabelecidos neste contrato."
+          ]
+      },
+      "footer": {
+          "privacy_policy": "Política de Privacidade",
+          "terms_of_use": "Termos de Utilização"
+      },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "intro": "A sua privacidade é muito importante para mim. Esta Política de Privacidade descreve como os seus dados pessoais são recolhidos, utilizados e protegidos no meu site, bem como os seus direitos em relação a esses dados. Como Psicóloga, comprometo-me a garantir a confidencialidade e segurança das informações que me são fornecidas.",
+      "items": [
+        "1. Responsável pelo Tratamento dos Dados\nO responsável pelo tratamento dos seus dados pessoais é Carolina Pádua Santos, Psicóloga Clínica (Cédula Profissional nº 26083), com o site www.carolinasantos-psicologia.com. Para qualquer dúvida ou pedido relacionado com os seus dados pessoais, pode contactar-me através do e-mail: psi.carolinapaduasantos@gmail.com.",
+        "2. Dados Pessoais Recolhidos\nNo âmbito dos serviços prestados no meu site, posso recolher os seguintes dados pessoais:\n- Nome completo\n- Data de nascimento\n- Endereço de e-mail\n- Dados relacionados com o processo terapêutico\nEsses dados são recolhidos através de formulários de contacto, agendamento de consultas ou outras formas de comunicação direta com os utilizadores do site.",
+        "3. Finalidade da Recolha de Dados\nOs dados pessoais recolhidos são utilizados para:\n- Agendamento de consultas e outros serviços de apoio psicológico;\n- Comunicação com os utilizadores sobre serviços e informações relevantes;\n- Responder a pedidos e dúvidas;\n- Cumprir obrigações legais associadas à minha prática profissional.\nA utilização dos dados é legítima e limitada ao estritamente necessário, nos termos por si consultados nos formulários de consentimento informado apresentados via online.",
+        "4. Armazenamento e Segurança dos Dados\nOs dados pessoais são armazenados de forma segura e protegidos contra acessos não autorizados, alteração, divulgação ou destruição. Adoto medidas físicas, eletrónicas e procedimentais para garantir a segurança das suas informações.",
+        "5. Direitos do Titular dos Dados\nNos termos da legislação aplicável, nomeadamente o Regulamento Geral sobre a Proteção de Dados (RGPD), o titular dos dados tem o direito de:\n- Aceder aos seus dados pessoais;\n- Solicitar a retificação ou atualização dos dados, caso estejam incorretos ou incompletos;\n- Solicitar a eliminação dos dados pessoais, quando aplicável;\n- Opor-se ao tratamento de dados ou retirar o consentimento a qualquer momento;\n- Solicitar a portabilidade dos dados pessoais, quando aplicável.",
+        "6. Conservação dos Dados\nOs dados pessoais serão conservados apenas pelo tempo necessário para cumprir as finalidades para as quais foram recolhidos, de acordo com as obrigações legais da minha prática profissional.",
+        "7. Cookies\nO meu site pode utilizar cookies para melhorar a sua experiência de navegação. Cookies são pequenos ficheiros de texto que são armazenados no seu dispositivo. Pode configurar o seu navegador para bloquear ou alertá-lo sobre cookies, mas algumas funcionalidades do site podem não funcionar corretamente caso escolha bloquear cookies.",
+        "8. Alterações à Política de Privacidade\nEsta Política de Privacidade pode ser atualizada periodicamente. Quaisquer alterações serão publicadas nesta página, e a data de revisão será atualizada. Recomendo que consulte esta página regularmente para estar ciente de quaisquer alterações.",
+        "9. Contactos\nCaso tenha dúvidas ou questões sobre esta Política de Privacidade ou sobre o tratamento dos seus dados pessoais, pode contactar-me através do e-mail: psi.carolinapaduasantos@gmail.com."
+      ]
+    }
+  },
+  "en": {
+    "title": "Clinical Psychologist",
+    "menu": {
+      "home": "Home",
+      "about_me": "About Me",
+      "consultations": "Consultations",
+      "contacts": "Contacts"
+    },
+    "online_consultations": "Online Psychological Consultations",
+    "book_your_consultation": "Book your consultation now!",
+    "book_now": "Book Now",
+    "quotes": {
+      "jung": "“Who looks outside dreams, who looks inside awakes.”",
+      "jung_author": "Carl Jung"
+    },
+    "testimonials_title": "Testimonials",
+    "testimonials": [
+      "I used to be the kind of person who said ‘yes’ to everything to avoid conflict and please others. Gradually, I'm learning to set boundaries without feeling guilty.<br><small>(33 years old)</small>",
+      "I realized I kept repeating the same patterns in my relationships. It was hard, but I can now build healthier relationships without fear of losing the other.<br><small>(42 years old)</small>",
+      "At first, I was a bit skeptical, but I ended up finding a safe space. I feel lighter now.<br><small>(34 years old)</small>",
+      "Therapy helped me communicate better with my family. I used to avoid difficult conversations, now I feel more confident expressing myself and setting boundaries.<br><small>(43 years old)</small>",
+      "I realized the problem wasn’t always ‘others,’ but how I reacted. I changed how I handle conflict, and I can see the difference in my relationships.<br><small>(17 years old)</small>",
+      "I used to look in the mirror and only see flaws. I always compared myself to others and thought I was never good enough. Now I recognize my worth beyond appearance, feel better about myself and trust myself more. It’s a journey.<br><small>(30 years old)</small>",
+      "Now, with the strategies I’ve learned, I’m able to break the cycle of negative thoughts and manage my anxiety more calmly.<br><small>(52 years old)</small>"
+    ],
+    "about_text": [
+      "Clinical Psychologist (Professional Registration No. 26083) from the Faculty of Psychology at the University of Lisbon.",
+      "Professional experience in clinical, hospital (public and private), and community settings, working with children, adolescents, and adults.",
+      "Certified trainer with educational training experience, particularly in school settings.",
+      "From an early age, I invested in continuous training to broaden my range of experiences and skills. I greatly value all the opportunities I’ve had for professional growth – not just formal training opportunities, but also volunteer experiences, which enriched me in many ways.",
+      "The resilience, strength, and courage of the children, young people, and adults I’ve had the privilege of supporting so far is something that stays with me and encourages me daily to be the best version of myself – with myself, in my relationships, and above all, as a professional."
+    ],
+    "training": "Training:",
+    "qualifications": [
+      "Integrated Master's Degree in Clinical and Health Psychology – Psychology of Health and Illness at the Faculty of Psychology, University of Lisbon",
+      "Postgraduate Degree in Forensic Psychology Assessment at ISPA",
+      "Advanced training in Psychopharmacology for Psychologists at ISPA",
+      "Workshop 'Depressive Disorders – Assessment and Intervention'",
+      "Course 'Intervention with Children and Adolescents at Risk' by OPP",
+      "Course 'Psychological Intervention with LGBTQ People' by OPP",
+      "Course 'Psychological Intervention with Refugees and Asylum Seekers' by OPP",
+      "Workshop 'Childhood Anxiety: How to Intervene?'",
+      "Workshop 'Childhood Tantrums: How to Intervene?'",
+      "Workshop 'Emotional Regulation Strategies with Children'",
+      "Portuguese Sign Language Course – Module I, by the National Institute for Rehabilitation"
+    ],
+    "more_info": "More information about me and my professional journey: LinkedIn",
+    "closing_message": "In my profession, I found my purpose and fell in love not only with psychological intervention but also with the human being and their ability to transform. Allow yourself to build your path of personal development, and I promise to walk with you towards change.",
+    "formButton": "Form",
+    "about_me": {
+            "heading": "About Me",
+            "intro": "My name is Carolina, and I am a <strong>Clinical Psychologist</strong>, graduated from the Faculty of Psychology at the University of Lisbon. I have professional experience in clinical, hospital, and community settings, working with children, adolescents, and adults. I am also a certified trainer.",
+            "purpose": "It was in Psychology that I discovered my purpose and fell in love not only with the therapeutic process but also with each person's ability to reinvent themselves, even in the most challenging moments.",
+            "approach": "My practice is guided by the integrative cognitive-behavioral approach, which allows me to adapt therapeutic tools according to each person's needs. Throughout my journey, I have invested in my continuous training, as I believe it is the safest path to providing effective and high-quality support.",
+            "quote_1": {
+                "text": "“Our thoughts influence our feelings and behaviors. By changing how we think, we change how we live.”",
+                "author": "Aaron Beck"
+            },
+            "closing": "In my daily work, what inspires me the most is the resilience of the people I work with. Their strength motivates me to continue seeking new ways to help, always with the belief that human beings are capable of transforming and (re)building their life stories.",
+            "invite": "If you are ready to take a step towards change and well-being, I am here to walk with you.",
+            "signature": {
+                "name": "Carolina Pádua Santos",
+                "position": "Member of the Portuguese Psychologists' Order",
+                "license": "(Professional License No. 26083)"
+            }
+  },
+  "contacts": {
+    "contact_description": "For more information or any questions, feel free to get in touch:",
+    "contact_form_name": "Name",
+    "contact_form_message": "Message",
+    "contact_form_submit": "Send"
+  },
+  "faqs": {
+    "formButton": "form",
+    "faq_question_1": "1. How do I know if I need psychological support?",
+    "faq_answer_1": "Taking the first step and seeking help may not be easy, especially when we’re not feeling well. It’s natural to have doubts about whether support is necessary or how to begin. However, we shouldn't wait for a moment of intense suffering to seek help – on the contrary, the earlier we turn to therapy, the more effective it can be in understanding and overcoming our difficulties. We can all benefit from psychological support, as therapy is not just for times of crisis or great hardship. It is also a space for self-discovery and personal development. Still, it can be particularly important when we’ve been feeling unwell for several weeks and that emotional state starts affecting different areas of our lives – such as our social life, relationships, family, or academic/professional life. In this sense, if your emotions, thoughts, or behaviors are interfering with your well-being, therapy can be a valuable tool to help understand and manage these challenges.",
+    "faq_question_2": "2. How can I schedule a consultation?",
+    "faq_answer_2_1": "Appointments can be scheduled through the following",
+    "faq_answer_2_2":", where you should indicate your availability. After completing it, you will receive an email with a proposed appointment based on your selected schedule. Once you confirm the appointment, payment details will be sent for bank transfer. Payment must be made at least 24 hours before the consultation to secure the booking. After confirming the payment, you will receive an email with the video call link through Google Meet or Microsoft Teams, according to your selected preference in the form.",
+    "faq_question_3": "3. What should I expect from the first session?",
+    "faq_answer_3": "The first session is an opportunity for us to get to know each other. We will explore your concerns and life history, as well as understand your needs and goals. There will also be space to clarify any doubts you may have about the therapeutic process.",
+    "faq_question_4": "4. Is there an initial assessment?",
+    "faq_answer_4": "The first sessions are dedicated to exploring not only the reason for the consultation but also your life and personal context, including family, social, educational/professional, and emotional aspects. This assessment process helps identify patterns of thoughts, emotions, and behaviors, as well as factors that may be contributing to the presented difficulties. Based on this understanding, it is possible to define an appropriate intervention plan, ensuring that the support is structured and tailored to your specific needs.",
+    "faq_question_5": "5. How long does psychological support last?",
+    "faq_answer_5": "The duration of psychological support depends on each individual's needs and goals. Some people achieve progress in a shorter period, while others benefit from a more in-depth process to work on specific issues and consolidate changes.",
+    "faq_question_6": "6. How often should I have sessions?",
+    "faq_answer_6": "The frequency of sessions is defined together during the first session and can be adjusted at any time in the therapeutic process. In general, weekly or biweekly sessions are recommended. Research shows that therapy tends to be more effective when sessions occur regularly, as continuity and consistency are fundamental to promoting meaningful and lasting changes. The most important thing is to find a frequency that best suits you and your needs.",
+    "faq_question_7": "7. What methods are used in the sessions?",
+    "faq_answer_7": "Psychologists apply procedures and techniques based on scientific research and evidence, ensuring their safety and effectiveness. My approach is based on integrative cognitive-behavioral therapy, which allows me to adapt the techniques used to each person's needs and goals. During the sessions, I use empirically validated models, methods, and techniques to help understand and modify patterns of thoughts, emotions, and behaviors that may be causing distress or difficulties in daily life. Additionally, strategies are adapted to the person's age group, ensuring that interventions are appropriate and effective. The focus is always on promoting well-being and developing tools that the person can apply in their daily life.",
+    "faq_question_8": "8. Is therapy confidential?",
+    "faq_answer_8": "Yes. Psychology sessions take place in a confidential setting, ensured by the duty of professional secrecy. This obligation is established in the Code of Ethics of the Portuguese Psychologists' Association and aims to protect the privacy of those seeking psychological support. Confidentiality is a fundamental pillar of the therapeutic relationship. The psychologist is responsible for ensuring that all shared information remains protected, except in very specific situations provided for by law, such as when the safety of the person or of others is at risk.",
+    "faq_question_9": "9. What are the advantages of online consultations?",
+    "faq_answer_9": "Online sessions make psychological support accessible to anyone, regardless of their location. They are a practical and accessible option, eliminating the time and costs associated with travel, and offering greater flexibility in schedule management. In addition, they provide comfort and privacy in the environment chosen by the patient. Still, to ensure confidentiality and the quality of the session, it is essential to take some precautions. It is recommended to use a personal (not public) device, choose a private and quiet place, and try to minimize interruptions during the appointment.",
+    "faq_question_10": "10. Do you have agreements with health insurance providers?",
+    "faq_answer_10": "I do not have agreements with insurance companies. However, I recommend that you contact your insurance provider directly for more information about reimbursement conditions. In any case, I always include the beneficiary number and respective insurance provider on the receipt.",
+    "faq_question_11": "11. How can I cancel a session in case of unforeseen circumstances?",
+    "faq_answer_11": "If something unexpected comes up and you’re unable to attend the scheduled session, it’s important to give notice at least 24 hours in advance. It is recommended that you get in touch as soon as possible to assess the possibility of rescheduling, depending on the availability.",
+    "faq_question_12": "12. Is it necessary to sign an informed consent form?",
+    "faq_answer_12": "Yes. In the first session, you will be asked to provide your informed consent. This document clearly and transparently explains the main aspects related to the intervention, including the handling of shared information. In the case of sessions with adolescents, it is essential to obtain consent from parents or legal representatives."
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "intro": "By using this website and proceeding with booking appointments, the user agrees to the terms and conditions outlined below, as well as the guidelines regarding psychological follow-up. This agreement aims to clarify the rules that must be followed by both the psychologist and the client during the therapeutic process:",
+    "items": [
+      "Personal Data: The use of this website does not require the provision of personal data, but when requesting information or scheduling appointments, the user must provide the necessary data (name, age, email), which will be treated confidentially.",
+      "Confidentiality and Records: All information shared during sessions will be treated confidentially, in accordance with the Code of Ethics of the Portuguese Psychologists' Order. Sessions will not be recorded, but the psychologist may take written notes for memory and supervision purposes, always ensuring data confidentiality.",
+      "Payments and Scheduling: Appointments must be paid for, via bank transfer, at least 24 hours in advance to secure the booking. Otherwise, the appointment will be automatically canceled. In case of client delay, the delayed time will be deducted from the total session time. If the psychologist is late, the lost time will be compensated at the end of the session.",
+      "Changes and Cancellations: Changes to the date and time of appointments and cancellations must be communicated at least 24 hours in advance. Otherwise, the appointment fee will not be refunded. In case of cancellation of already paid appointments, the amount will not be refunded.",
+      "Duration and Regularity of Sessions: Sessions last 50 minutes. The regularity of sessions will be agreed upon in the first session and may be adjusted as needed throughout the therapeutic process. The therapeutic agreement may be terminated at any time by either party.",
+      "Use of the Website: The user agrees to use the website for personal and non-commercial purposes only, respecting intellectual property rights and site content. The site is subject to temporary changes and interruptions for maintenance. The website may contain links to other sites, for which the psychologist is not responsible.",
+      "Consent: By proceeding with the appointment booking, both parties agree to the terms established in this agreement."
+    ]
+  },
+  "footer": {
+    "privacy_policy": "Privacy Policy",
+    "terms_of_use": "Terms of Use"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "Your privacy is very important to me. This Privacy Policy describes how your personal data is collected, used, and protected on my website, as well as your rights regarding that data. As a Psychologist, I am committed to ensuring the confidentiality and security of the information you provide.",
+    "items": [
+      "1. Data Controller\nThe controller of your personal data is Carolina Pádua Santos, Clinical Psychologist (Professional License No. 26083), at www.carolinasantos-psicologia.com. For any questions or requests related to your data, you can contact me via email: psi.carolinapaduasantos@gmail.com.",
+      "2. Personal Data Collected\nAs part of the services provided on my site, the following personal data may be collected:\n- Full name\n- Date of birth\n- Email address\n- Data related to the therapeutic process\nThese data are collected via contact forms, consultation scheduling, or other direct communication with website users.",
+      "3. Purpose of Data Collection\nThe collected personal data is used for:\n- Scheduling consultations and other psychological support services;\n- Communicating with users about relevant services and information;\n- Responding to inquiries;\n- Complying with legal obligations related to my professional practice.\nThe use of data is legitimate and limited to what is strictly necessary, as outlined in the online informed consent forms.",
+      "4. Data Storage and Security\nPersonal data is securely stored and protected against unauthorized access, alteration, disclosure, or destruction. I adopt physical, electronic, and procedural measures to ensure your information's security.",
+      "5. Data Subject Rights\nUnder applicable law, including the General Data Protection Regulation (GDPR), the data subject has the right to:\n- Access their personal data;\n- Request correction or updates if the data is incorrect or incomplete;\n- Request deletion of personal data when applicable;\n- Object to data processing or withdraw consent at any time;\n- Request data portability when applicable.",
+      "6. Data Retention\nPersonal data will only be retained for as long as necessary to fulfill the purposes for which it was collected, in accordance with legal obligations related to my professional practice.",
+      "7. Cookies\nMy website may use cookies to enhance your browsing experience. Cookies are small text files stored on your device. You can configure your browser to block or alert you about cookies, but some site features may not work properly if cookies are blocked.",
+      "8. Changes to the Privacy Policy\nThis Privacy Policy may be updated periodically. Any changes will be published on this page, and the revision date will be updated. I recommend checking this page regularly to stay informed of any updates.",
+      "9. Contact\nIf you have any questions or concerns about this Privacy Policy or the handling of your personal data, please contact me via email: psi.carolinapaduasantos@gmail.com."
+    ]
+  }
+}
+
+}

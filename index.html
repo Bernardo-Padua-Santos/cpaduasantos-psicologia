@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo Carolina" class="logo-img">
+          <div class="logo-text">
+            <h1>Carolina Pádua Santos</h1>
+            <h4 id="subtitle">Psicóloga Clínica</h4>
+          </div>
+        </div>
+        <div class="header-right">
+          <nav>
+            <ul>
+              <li><a id="menu-home" href="index.html">Início</a></li>
+              <li><a id="menu-about-me" href="aboutMe.html">Sobre mim</a></li>
+              <li><a id="menu-consultations" href="consultas.html">Consultas</a></li>
+              <li><a id="menu-faq" href="faqs.html">FAQs</a></li>
+              <li><a id="menu-contacts" href="contact.html">Contactos</a></li>
+            </ul>
+          </nav>
+          <select id="lang-switch">
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </header>
+
+    <div class="video-container">
+        <video autoplay loop muted playsinline id="background-video">
+            <source src="images/consultasOnline.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h1 id="online_consultations">Consultas de Psicologia Online</h1>
+        <p id="book_your_consultation">Marque já a sua consulta!</p>
+        <a href="https://forms.gle/BuqVzcLLwpvBvoFv8">
+          <button id="book_now">Marcar agora</button>
+      </a>
+        
+    </div>
+    <div class="container" margin="auto">
+        <div class="test_image" id="testImage" margin="auto">
+            <img id="missionImage" src="images/CastanhoMontagemFotografiaClássicaPublicaçãoFacebook.png">
+
+        </div>
+    </div>
+    <section class="quote-section">
+      <div class="quote-container">
+        <div class="quote-block">
+          <p class="quote-text" id="quote-jung"></p>
+          <span class="quote-author" id="quote-jung-author"></span>
+        </div>
+    </section>
+    
+    
+    
+    <div class="container">
+      <div class="testimonial-slider" id="testimonialSlider">
+        <h3 id="testimonials_title">Testemunhos</h3>
+        <p class="testimonial" id="testimonial-text"></p>
+        <p class="author" id="testimonial-author"></p>
+    
+        <div class="navigation">
+          <span class="nav-arrow" id="prev">❮</span>
+          <span class="nav-arrow" id="next">❯</span>
+        </div>
+    
+        <div class="dots" id="testimonial-dots"></div>
+      </div>
+    </div>
+
+    <script src="script_index.js"></script>
+    <div id="footer-placeholder"></div>
+</body>
+</html>
+
+
