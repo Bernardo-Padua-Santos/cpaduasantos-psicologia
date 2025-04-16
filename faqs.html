@@ -29,7 +29,8 @@
             <h4 id="subtitle">Psicóloga Clínica</h4>
           </div>
         </div>
-        <div class="header-right">
+        <div class="hamburger" id="hamburger">☰</div>
+        <div class="header-right desktop-nav">
           <nav>
             <ul>
               <li><a id="menu-home" href="index.html">Início</a></li>
@@ -45,6 +46,24 @@
           </select>
         </div>
       </header>
+
+      <div class="mobile-menu hidden" id="mobileMenu">
+        <ul>
+          <li><a id="menu-home-mobile" href="index.html">Início</a></li>
+          <li><a id="menu-about-me-mobile" href="aboutMe.html">Sobre mim</a></li>
+          <li><a id="menu-consultations-mobile" href="consultas.html">Consultas</a></li>
+          <li><a id="menu-faq-mobile" href="faqs.html">FAQs</a></li>
+          <li><a id="menu-contacts-mobile" href="contact.html">Contactos</a></li>
+          <li>
+            <select id="lang-switch-mobile">
+              <option value="pt">Português</option>
+              <option value="en">English</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <div class="overlay hidden" id="overlay"></div>
+
 
       <div class="faq-container">
         <h1>FAQs</h1>

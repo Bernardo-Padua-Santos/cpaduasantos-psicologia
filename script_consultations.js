@@ -32,6 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("menu-consultations").innerText = translations[lang].menu.consultations;
     document.getElementById("menu-contacts").innerText = translations[lang].menu.contacts;
 
+    document.getElementById("menu-home-mobile").innerText = translations[lang].menu.home;
+    document.getElementById("menu-about-me-mobile").innerText = translations[lang].menu.about_me;
+    document.getElementById("menu-consultations-mobile").innerText = translations[lang].menu.consultations;
+    document.getElementById("menu-contacts-mobile").innerText = translations[lang].menu.contacts;
+
     const imageMappings = {
       "pt": {
           appointment1: "images/2.png",
@@ -109,11 +114,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const langSwitcher = document.getElementById("lang-switch");
-  if (langSwitcher) {
+  const langSwticherMobile = document.getElementById("lang-switch-mobile");
+  if (langSwitcher && langSwticherMobile) {
     langSwitcher.value = lang;
-
+    langSwticherMobile.value = lang;
     langSwitcher.addEventListener("change", (e) => {
       lang = e.target.value;
+      langSwticherMobile.value = lang; // Sync mobile switcher
+      localStorage.setItem('lang', lang);
+      setLanguage(lang);
+    });
+    langSwticherMobile.addEventListener("change", (e) => {
+      lang = e.target.value;
+      langSwitcher.value = lang; // Sync desktop switcher
       localStorage.setItem('lang', lang);
       setLanguage(lang);
     });
@@ -166,3 +179,25 @@ fetch("footer.html")
   });
 })
 .catch(error => console.error("Error loading footer:", error));
+
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+const overlay = document.getElementById("overlay");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.add("show");
+  overlay.classList.add("show");
+  mobileMenu.classList.remove("hidden");
+  overlay.classList.remove("hidden");
+  document.body.style.overflow = "hidden";
+});
+
+overlay.addEventListener("click", () => {
+  mobileMenu.classList.remove("show");
+  overlay.classList.remove("show");
+  setTimeout(() => {
+    mobileMenu.classList.add("hidden");
+    overlay.classList.add("hidden");
+  }, 300);
+  document.body.style.overflow = "auto";
+});
