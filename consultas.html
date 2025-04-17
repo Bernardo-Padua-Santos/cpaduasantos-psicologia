@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJK0P10XGP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-XJK0P10XGP');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consultas de Psicologia | Online</title>
@@ -101,6 +92,189 @@
 
     <script src="script_consultations.js"></script>
     <div id="footer-placeholder"></div>
+    
+    <!-- Cookie Consent CSS + Script -->
+    <style>
+      #cookie-modal {
+        position: fixed;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #faf4ef;
+        border-radius: 12px;
+        padding: 30px 25px;
+        max-width: 90%;
+        width: 420px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        z-index: 9999;
+        display: none;
+        font-family: 'Poppins', sans-serif;
+        color: #4b3832;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.5s ease, transform 0.5s ease;
+      }
+    
+      #cookie-modal.show {
+        display: block;
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+      }
+    
+      #cookie-modal p {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+    
+      #cookie-link {
+        font-size: 0.85rem;
+        color: #a35d5d;
+        text-decoration: underline;
+        display: block;
+        margin-top: -10px;
+        margin-bottom: 20px;
+      }
+    
+      #cookie-modal .cookie-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+    
+      .cookie-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+    
+      .cookie-accept {
+        background-color: #a35d5d;
+        color: white;
+      }
+    
+      .cookie-accept:hover {
+        background-color: #804848;
+      }
+    
+      .cookie-deny {
+        background-color: #ddd;
+        color: #333;
+      }
+    
+      .cookie-deny:hover {
+        background-color: #bbb;
+      }
+    
+      @media (max-width: 480px) {
+        #cookie-modal {
+          width: 90%;
+          padding: 20px;
+        }
+    
+        #cookie-modal p {
+          font-size: 0.9rem;
+        }
+    
+        .cookie-buttons {
+          flex-direction: column;
+        }
+    
+        .cookie-btn {
+          width: 100%;
+        }
+      }
+    </style>
+    
+    <div id="cookie-modal">
+      <p id="cookie-text"></p>
+      <a href="#" id="cookie-link" target="_blank" rel="noopener noreferrer"></a>
+      <div class="cookie-buttons">
+        <button class="cookie-btn cookie-accept" id="cookie-accept"></button>
+        <button class="cookie-btn cookie-deny" id="cookie-deny"></button>
+      </div>
+    </div>
+    
+    <script>
+      function loadAnalytics() {
+        const script = document.createElement('script');
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-XJK0P10XGP";
+        script.async = true;
+        document.head.appendChild(script);
+    
+        script.onload = function () {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){ dataLayer.push(arguments); }
+          window.gtag = gtag;
+          gtag('js', new Date());
+          gtag('config', 'G-XJK0P10XGP');
+        };
+      }
+    
+      const translations = {
+        pt: {
+          text: "Este site utiliza cookies para fins estatísticos. Pode aceitar ou rejeitar.",
+          accept: "Aceitar",
+          deny: "Rejeitar",
+          link: "Saber mais",
+          linkHref: "/politica-de-cookies.html"
+        },
+        en: {
+          text: "This website uses cookies for statistical purposes. You can accept or decline.",
+          accept: "Accept",
+          deny: "Decline",
+          link: "Learn more",
+          linkHref: "/cookie-policy.html"
+        }
+      };
+    
+      function setCookieModalLanguage(lang) {
+        const t = translations[lang] || translations.pt;
+        document.getElementById("cookie-text").innerText = t.text;
+        document.getElementById("cookie-accept").innerText = t.accept;
+        document.getElementById("cookie-deny").innerText = t.deny;
+        const link = document.getElementById("cookie-link");
+        link.innerText = t.link;
+        link.href = t.linkHref;
+      }
+    
+      function showCookieModal() {
+        const modal = document.getElementById("cookie-modal");
+        modal.classList.add("show");
+      }
+    
+      function hideCookieModal() {
+        const modal = document.getElementById("cookie-modal");
+        modal.style.display = "none";
+      }
+    
+      document.addEventListener("DOMContentLoaded", () => {
+        const lang = document.getElementById("lang-switch")?.value || navigator.language.slice(0, 2);
+        setCookieModalLanguage(lang);
+    
+        if (!localStorage.getItem("cookies_accepted")) {
+          showCookieModal();
+        }
+    
+        document.getElementById("cookie-accept").onclick = () => {
+          localStorage.setItem("cookies_accepted", "true");
+          hideCookieModal();
+          loadAnalytics();
+        };
+    
+        document.getElementById("cookie-deny").onclick = () => {
+          localStorage.setItem("cookies_accepted", "false");
+          hideCookieModal();
+        };
+    
+        document.getElementById("lang-switch")?.addEventListener("change", (e) => {
+          setCookieModalLanguage(e.target.value);
+        });
+      });
+    </script>
 </body>
 </html>
 
