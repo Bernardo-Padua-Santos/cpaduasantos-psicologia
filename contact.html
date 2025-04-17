@@ -77,24 +77,20 @@
       </p>
   
       <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-
-        <!-- Replace with your Access Key -->
         <input type="hidden" name="access_key" value="8dc38ba8-62f5-4f0b-8e7c-facb46149c1c">
-    
-        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <input type="hidden" name="redirect" id="redirect-field">
+        <input type="hidden" name="lang" id="form-lang">
+
+      
         <input id="contact-form-name" type="text" name="name" placeholder="Nome" required>
         <input type="email" name="email" placeholder="Email" required>
         <textarea id="contact-form-message" name="message" placeholder="Mensagem" required></textarea>
-    
-        <!-- Honeypot Spam Protection -->
+      
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-    
-        <!-- Custom Confirmation / Success Page -->
-        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-    
+      
         <button id="contact-form-submit" type="submit">Enviar</button>
-    
-    </form>
+      </form>
+      
   
       <div class="contact-info">
           <p><strong>Email:</strong> <a href="mailto:psi.carolinapaduasantos@gmail.com">psi.carolinapaduasantos@gmail.com</a></p>
@@ -296,6 +292,27 @@
         document.getElementById("lang-switch")?.addEventListener("change", (e) => {
           setCookieModalLanguage(e.target.value);
         });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+
+        const desktopLang = document.getElementById("lang-switch");
+        const mobileLang = document.getElementById("lang-switch-mobile");
+
+        if (mobileLang && window.getComputedStyle(mobileLang).display !== "none") {
+          lang = mobileLang.value;
+        } else if (desktopLang) {
+          lang = desktopLang.value;
+        }
+
+        // Preenche os campos hidden
+        const langField = document.getElementById("form-lang");
+        if (langField) langField.value = lang;
+
+        const redirectField = document.getElementById("redirect-field");
+        if (redirectField) {
+          redirectField.value = `http://127.0.0.1:5500/afterContact.html?lang=${lang}`;
+        }
       });
     </script>
 </body>

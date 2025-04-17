@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Obrigado / Thank You</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #faf4ef;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      color: #4b3832;
+    }
+    h1 {
+      color: #a35d5d;
+    }
+    p {
+      font-size: 1.1rem;
+      margin: 20px auto;
+      max-width: 500px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #a35d5d;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    a.button:hover {
+      background-color: #804848;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="thank-you-title">Obrigado!</h1>
+  <p id="thank-you-text">A sua mensagem foi enviada com sucesso. Entrarei em contacto consigo o mais brevemente possível.</p>
+  <a href="index.html" class="button" id="back-button">Voltar ao site</a>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get("lang") || "pt";
+
+    if (lang === "en") {
+      document.documentElement.lang = "en";
+      document.getElementById("thank-you-title").innerText = "Thank You!";
+      document.getElementById("thank-you-text").innerText = "Your message was successfully sent. I’ll get back to you as soon as possible.";
+      document.getElementById("back-button").innerText = "Return to website";
+    }
+  </script>
+</body>
+</html>
+
