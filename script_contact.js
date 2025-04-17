@@ -71,17 +71,13 @@ document.addEventListener("DOMContentLoaded", () => {
     
     translations[lang].privacy.items.forEach(item => {
       const section = document.createElement("div");
-    
-      // Detetar quebra de título e conteúdo
       const [title, ...bodyParts] = item.split("\n");
       const body = bodyParts.join("<br>");
-    
-      // Substituir email por link
-      const processedBody = body.replace(
+      let processedBody = body.replace(
         /psi\.carolinapaduasantos@gmail\.com/g,
         '<a href="mailto:psi.carolinapaduasantos@gmail.com">psi.carolinapaduasantos@gmail.com</a>'
       );
-    
+      processedBody = processedBody.replace(/www\.carolinasantos\-psicologia\.com/g, '<a href="https://www.carolinasantos-psicologia.com">www.carolinasantos-psicologia.com</a>');
       section.innerHTML = `<p><strong>${title}</strong><br>${processedBody}</p>`;
       privacyList.appendChild(section);
     });
