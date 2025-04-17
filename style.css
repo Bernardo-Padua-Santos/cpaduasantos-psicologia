@@ -895,9 +895,9 @@ img {
 @media (max-width: 900px) {
   header {
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    align-items: center;
+    padding: 12px 20px;
   }
 
   .logo {
@@ -907,25 +907,27 @@ img {
   }
 
   .logo-img {
-    height: 40px;
+    height: 36px;
   }
 
   .logo-text h1 {
     font-size: 1rem;
     margin: 0;
+    line-height: 1.2;
   }
 
   .logo-text h4#subtitle {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     margin: 0;
+    color: #8b5e5a;
+    font-weight: normal;
   }
 
   .hamburger {
-    display: block; /* re-enable visibility */
-    font-size: 2rem;
-    cursor: pointer;
+    display: block;
+    font-size: 1.8rem;
     color: #a35d5d;
-    padding: 10px;
+    padding: 5px;
     margin-left: auto;
   }
 
@@ -934,10 +936,9 @@ img {
   }
 
   .logo-text {
-    text-align: left;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   /* Remove flex-direction: column from nav! */
