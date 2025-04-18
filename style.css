@@ -118,8 +118,8 @@ header nav ul li a {
 /* Flexbox to Keep Image at the Top */
 .about-container {
   display: flex;
-  align-items: flex-start; /* Ensures both text and image align at the top */
-  justify-content: space-between;
+  text-align: justify;
+  text-justify: inter-word;
   max-width: 1400px;
   margin: auto;
 }
