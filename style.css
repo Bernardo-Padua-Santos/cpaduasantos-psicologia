@@ -1002,3 +1002,22 @@ img {
   }
 }
 
+@media (max-width: 480px) {
+  #formButton {
+    max-width: 150px;
+    font-size: 11px;
+    padding: 10px 20px;
+    bottom: 2.5em;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 900px) {
+  #formButton {
+    max-width: 200px;
+    font-size: 12px;
+    padding: 10px 20px;
+    bottom: 2.5em;
+    white-space: nowrap;
+  }
+}
