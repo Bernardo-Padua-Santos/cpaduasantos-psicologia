@@ -1021,10 +1021,12 @@ img {
 
 @media (max-width: 900px) {
   #formButton {
-    max-width: 200px;
-    font-size: 12px;
+    max-width: 150px;
+    font-size: 11px;
     padding: 10px 20px;
     bottom: 2.5em;
     white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
   }
 }
