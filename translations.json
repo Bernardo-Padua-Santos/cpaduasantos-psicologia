@@ -161,10 +161,10 @@
     ],
     "about_text": [
       "Clinical Psychologist (Professional Registration No. 26083) from the Faculty of Psychology at the University of Lisbon.",
-      "Professional experience in clinical, hospital (public and private), and community settings, working with children, adolescents, and adults.",
+      "Professional experience in clinical, hospital (public and private) and community settings, working with children, adolescents and adults.",
       "Certified trainer with educational training experience, particularly in school settings.",
       "From an early age, I invested in continuous training to broaden my range of experiences and skills. I greatly value all the opportunities I’ve had for professional growth – not just formal training opportunities, but also volunteer experiences, which enriched me in many ways.",
-      "The resilience, strength, and courage of the children, young people, and adults I’ve had the privilege of supporting so far is something that stays with me and encourages me daily to be the best version of myself – with myself, in my relationships, and above all, as a professional."
+      "The resilience, strength and courage of the children, young people and adults I’ve had the privilege of supporting so far is something that stays with me and encourages me daily to be the best version of myself – with myself, in my relationships, and above all, as a professional."
     ],
     "training": "Training:",
     "qualifications": [
@@ -185,7 +185,7 @@
     "formButton": "Form",
     "about_me": {
             "heading": "About me",
-            "intro": "My name is Carolina, and I am a <strong>Clinical Psychologist</strong>, graduated from the Faculty of Psychology at the University of Lisbon. I have professional experience in clinical, hospital, and community settings, working with children, adolescents, and adults. I am also a certified trainer.",
+            "intro": "My name is Carolina, and I am a <strong>Clinical Psychologist</strong>, graduated from the Faculty of Psychology at the University of Lisbon. I have professional experience in clinical, hospital and community settings, working with children, adolescents and adults. I am also a certified trainer.",
             "purpose": "It was in Psychology that I discovered my purpose and fell in love not only with the therapeutic process but also with each person's ability to reinvent themselves, even in the most challenging moments.",
             "approach": "My practice is guided by the integrative cognitive-behavioral approach, which allows me to adapt therapeutic tools according to each person's needs. Throughout my journey, I have invested in my continuous training, as I believe it is the safest path to providing effective and high-quality support.",
             "quote_1": {
@@ -216,13 +216,13 @@
     "faq_question_3": "3. What should I expect from the first session?",
     "faq_answer_3": "The first session is an opportunity for us to get to know each other. We will explore your concerns and life history, as well as understand your needs and goals. There will also be space to clarify any doubts you may have about the therapeutic process.",
     "faq_question_4": "4. Is there an initial assessment?",
-    "faq_answer_4": "The first sessions are dedicated not only to exploring the reason for seeking therapy but also your life story and current context, including family, social, academic/professional, and emotional aspects. Whenever necessary, complementary assessment tools may be used. This phase allows for the development of a tailored intervention plan, ensuring that the support provided is structured and appropriately meets your needs.",
+    "faq_answer_4": "The first sessions are dedicated not only to exploring the reason for seeking therapy but also your life story and current context, including family, social, academic/professional and emotional aspects. Whenever necessary, complementary assessment tools may be used. This phase allows for the development of a tailored intervention plan, ensuring that the support provided is structured and appropriately meets your needs.",
     "faq_question_5": "5. How long does psychological support last?",
     "faq_answer_5": "The duration of psychological support depends on each person’s needs and goals. It can vary over time and is flexibly adjusted according to what is most appropriate at each stage of the process.",
     "faq_question_6": "6. How often should I have sessions?",
     "faq_answer_6": "The frequency of sessions is defined together during the first appointment and can be adjusted at any point during the therapeutic process. As a general rule, weekly or biweekly sessions are recommended, as continuity and consistency are important factors in promoting meaningful and lasting change. What matters most is finding the pace that best suits you and your needs.",
     "faq_question_7": "7. What methods are used in the sessions?",
-    "faq_answer_7": "My approach is based on integrative cognitive-behavioral therapy, which means I combine different strategies to meet each person’s needs and goals. In the sessions, I use models, methods, and techniques grounded in scientific research and evidence to help understand and modify patterns of thinking, emotions, and behaviors that may be causing distress or difficulties in daily life, and we explore ways to understand and transform them. The tools I use are adapted to each person’s age and stage of life.",
+    "faq_answer_7": "My approach is based on integrative cognitive-behavioral therapy, which means I combine different strategies to meet each person’s needs and goals. In the sessions, I use models, methods and techniques grounded in scientific research and evidence to help understand and modify patterns of thinking, emotions and behaviors that may be causing distress or difficulties in daily life, and we explore ways to understand and transform them. The tools I use are adapted to each person’s age and stage of life.",
     "faq_question_8": "8. Is therapy confidential?",
     "faq_answer_8": "Yes. Sessions take place in a confidential environment, ensured by the duty of professional secrecy, in accordance with the Code of Ethics of the Portuguese Psychologists' Association. Confidentiality is a fundamental pillar of the therapeutic relationship and involves the duty to ensure that all shared information remains protected, except in very specific situations provided for by law, such as when the safety of the individual or others is at risk.",
     "faq_question_9": "9. What are the advantages of online consultations?",
@@ -254,12 +254,12 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "intro": "Your privacy is very important to me. This Privacy Policy describes how your personal data is collected, used, and protected on my website, as well as your rights regarding that data. As a Psychologist, I am committed to ensuring the confidentiality and security of the information you provide.",
+    "intro": "Your privacy is very important to me. This Privacy Policy describes how your personal data is collected, used and protected on my website, as well as your rights regarding that data. As a Psychologist, I am committed to ensuring the confidentiality and security of the information you provide.",
     "items": [
       "1. Data Controller\nThe processing of your personal data is my responsibility, Clinical Psychologist (Professional License No. 26083), with the website www.carolinasantos-psicologia.com. For any questions or requests related to your personal data, you can contact me via email: psi.carolinapaduasantos@gmail.com.",
       "2. Personal Data Collected\nAs part of the services provided on my site, the following personal data may be collected:\n- Full name\n- Date of birth\n- Email address\n- Data related to the therapeutic process\nThese data are collected via contact forms, consultation scheduling, or other direct communication with website users.",
       "3. Purpose of Data Collection\nThe collected personal data is used for:\n- Scheduling consultations and other psychological support services;\n- Communicating with users about relevant services and information;\n- Responding to inquiries;\n- Complying with legal obligations related to my professional practice.\nThe use of data is legitimate and limited to what is strictly necessary, as outlined in the online informed consent forms.",
-      "4. Data Storage and Security\nPersonal data is securely stored and protected against unauthorized access, alteration, disclosure, or destruction. I adopt physical, electronic, and procedural measures to ensure your information's security.",
+      "4. Data Storage and Security\nPersonal data is securely stored and protected against unauthorized access, alteration, disclosure, or destruction. I adopt physical, electronic and procedural measures to ensure your information's security.",
       "5. Data Subject Rights\nUnder applicable law, including the General Data Protection Regulation (GDPR), the data subject has the right to:\n- Access their personal data;\n- Request correction or updates if the data is incorrect or incomplete;\n- Request deletion of personal data when applicable;\n- Object to data processing or withdraw consent at any time;\n- Request data portability when applicable.",
       "6. Data Retention\nPersonal data will only be retained for as long as necessary to fulfill the purposes for which it was collected, in accordance with legal obligations related to my professional practice.",
       "7. Cookies\nMy website may use cookies to enhance your browsing experience. Cookies are small text files stored on your device. You can configure your browser to block or alert you about cookies, but some site features may not work properly if cookies are blocked.",
