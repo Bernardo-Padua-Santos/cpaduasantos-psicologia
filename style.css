@@ -1004,11 +1004,12 @@ img {
 @media (max-width: 480px) {
   #formButton {
     bottom: 1em;
-    padding: 4px 8px;
-    font-size: 11px;
-    max-width: 120px;
+    padding: 3px 8px;
+    font-size: 10px;
+    max-width: 110px;
     white-space: nowrap;
     border-radius: 4px;
+    line-height: 1;
   }
 }
 
