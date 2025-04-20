@@ -1011,6 +1011,11 @@ img {
     border-radius: 4px;
     line-height: 1;
   }
+
+  .container_appointment {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 
