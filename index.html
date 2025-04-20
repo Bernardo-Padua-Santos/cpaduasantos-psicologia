@@ -229,7 +229,7 @@
     
         script.onload = function () {
           window.dataLayer = window.dataLayer || [];
-          function gtag(){ dataLayer.push(arguments); }
+          function gtag() { dataLayer.push(arguments); }
           window.gtag = gtag;
           gtag('js', new Date());
           gtag('config', 'G-XJK0P10XGP');
@@ -253,6 +253,10 @@
         }
       };
     
+      const COOKIE_KEY = "cookies_consent";
+      const EXPIRY_DAYS_REJECTED = 1;
+      const EXPIRY_DAYS_ACCEPTED = 365;
+    
       function setCookieModalLanguage(lang) {
         const t = translations[lang] || translations.pt;
         document.getElementById("cookie-text").innerText = t.text;
@@ -264,31 +268,42 @@
       }
     
       function showCookieModal() {
-        const modal = document.getElementById("cookie-modal");
-        modal.classList.add("show");
+        document.getElementById("cookie-modal").classList.add("show");
       }
     
       function hideCookieModal() {
-        const modal = document.getElementById("cookie-modal");
-        modal.style.display = "none";
+        document.getElementById("cookie-modal").style.display = "none";
+      }
+    
+      function hasConsentExpired() {
+        const data = JSON.parse(localStorage.getItem(COOKIE_KEY));
+        if (!data) return true;
+        const now = Date.now();
+        return now > data.expires;
+      }
+    
+      function saveConsent(value) {
+        const expiryDays = value ? EXPIRY_DAYS_ACCEPTED : EXPIRY_DAYS_REJECTED;
+        const expiry = Date.now() + expiryDays * 24 * 60 * 60 * 1000;
+        localStorage.setItem(COOKIE_KEY, JSON.stringify({ value, expires: expiry }));
       }
     
       document.addEventListener("DOMContentLoaded", () => {
         const lang = document.getElementById("lang-switch")?.value || navigator.language.slice(0, 2);
         setCookieModalLanguage(lang);
     
-        if (!localStorage.getItem("cookies_accepted")) {
+        if (hasConsentExpired()) {
           showCookieModal();
         }
     
         document.getElementById("cookie-accept").onclick = () => {
-          localStorage.setItem("cookies_accepted", "true");
+          saveConsent(true);
           hideCookieModal();
           loadAnalytics();
         };
     
         document.getElementById("cookie-deny").onclick = () => {
-          localStorage.setItem("cookies_accepted", "false");
+          saveConsent(false);
           hideCookieModal();
         };
     
