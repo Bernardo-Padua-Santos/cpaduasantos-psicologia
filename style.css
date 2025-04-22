@@ -1001,7 +1001,7 @@ img {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   #formButton {
     bottom: 1em;
     padding: 3px 8px;
